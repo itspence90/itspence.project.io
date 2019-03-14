@@ -1,3 +1,7 @@
+/*  BOOTSTRAP MODIFICATIONS
+      These are modifications to Bootstrap objects
+*/
+
 .nav-link{
   color: #405d27;
 }
@@ -5,6 +9,8 @@
 .nav-link:hover{
   color: #e3eaa7;
 }
+
+/* End of Bootstrap modifications */
 
 .zone1 {
     padding:10px 50px;
