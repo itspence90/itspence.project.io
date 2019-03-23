@@ -15,6 +15,47 @@
 
 
 /* Personal modifications/additions*/
+
+.datapic {
+  display: flex;
+  width: 500px;
+  justify-content:center;
+}
+
+.datatext {
+  width: 500px
+  text-align: center;
+  align-self: center;
+}
+
+.line {
+  grid-column: 1 / -1;
+  border-top: 1px solid black;
+}
+
+.zone3 {
+    padding:30px 10px;
+    margin:0px 0px;
+    /* width: auto; */
+    /* cursor:pointer; */
+    display:grid;
+    color:#FFF;
+    font-size:15px;
+    font-weight: bold;
+    border-radius:4px;
+    /* border:1px solid #bbb; */
+    /* transition: all 0.3s linear; */
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    }
+
+.zone3 img {
+  height: 250px;
+}
+
+
 .zone2 {
     padding:10px 50px;
     /* margin:40px 60px; */
